@@ -59,7 +59,7 @@ async def pingpong_endpoint():
 
 
 @app.post('/demo')
-async def ocr_endpoint(
+async def demo(
         *, request: Request
 ):
     if 'content-type' in request.headers:
